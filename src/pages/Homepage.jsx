@@ -5,9 +5,8 @@ function Homepage() {
   return (
     <div>
       <PageNav />
-      <h1>Homepage</h1>
-      <Link to={`/product`}>Product</Link>
-      <Link to={`/pricing`}>Pricing</Link>
+      <h1>WORLWISE APP</h1>
+      <Link to="/app">Go to the APP</Link>
     </div>
   );
 }

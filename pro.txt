@@ -5,3 +5,4 @@
 004 Implementing Main Pages and Routes
 005 Linking Between Routes With Link  and NavLink
 006 Styling Options For React Applications
+007 Using CSS Modules
