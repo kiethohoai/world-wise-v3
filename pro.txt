@@ -1,3 +1,4 @@
 17 React Router Building Single-Page Applications (SPA)
 001 Section Overview
 002 Creating Our First App With Vite WorldWise Fix
+003 Routing and Single-Page Applications (SPAs)
