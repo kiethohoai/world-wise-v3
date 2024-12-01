@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Hue",
+      "country": "Vietnam",
+      "emoji": "",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 16.4642982,
+        "lng": 107.5875636
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Da Nang",
+      "country": "Vietnam",
+      "emoji": "",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 16.0472372,
+        "lng": 108.1287658
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Dong Ha",
+      "country": "Vietnam",
+      "emoji": "",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 16.809798,
+        "lng": 107.0999242
+      },
+      "id": 98443197
+    }
+  ]
+}
