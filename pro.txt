@@ -6,3 +6,4 @@
 005 Linking Between Routes With Link  and NavLink
 006 Styling Options For React Applications
 007 Using CSS Modules
+008 Building the Pages
