@@ -1,5 +1,5 @@
 import styles from './Map.module.css';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import {
   MapContainer,
@@ -12,19 +12,18 @@ import {
 import useCities from '../contexts/useCities';
 import { useGeolocation } from '../hooks/useGeolocation';
 import Button from './Button';
+import { useUrlPosition } from '../hooks/useUrlPosition';
 
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([16.4642982, 107.5875636]);
-  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
     getPosition,
   } = useGeolocation();
 
-  const lat = searchParams.get('lat');
-  const lng = searchParams.get('lng');
+  const [lat, lng] = useUrlPosition();
 
   useEffect(() => {
     if (lat && lng) setMapPosition([lat, lng]);
