@@ -16,3 +16,4 @@
 014 Dynamic Routes With URL Parameters
 015 Reading and Setting a Query String
 016 Programmatic Navigation with useNavigate
+017 Programmatic Navigation with Navigate
