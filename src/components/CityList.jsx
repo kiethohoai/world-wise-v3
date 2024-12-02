@@ -12,11 +12,11 @@ function CityList({ cities, isLoading }) {
     );
 
   return (
-    <div className={styles.cityList}>
+    <ul className={styles.cityList}>
       {cities.map((city, i) => (
         <CityItem city={city} key={`city-${i}`} />
       ))}
-    </div>
+    </ul>
   );
 }
 

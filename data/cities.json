@@ -1,8 +1,8 @@
 {
   "cities": [
     {
-      "cityName": "Hue",
-      "country": "Vietnam",
+      "cityName": "TP. Hue",
+      "country": "Thua Thien Hue",
       "emoji": ">",
       "date": "2027-10-31T15:59:59.138Z",
       "notes": "My favorite city so far!",
@@ -10,11 +10,11 @@
         "lat": 16.4642982,
         "lng": 107.5875636
       },
-      "id": 73930385
+      "id": 11111111
     },
     {
-      "cityName": "Da Nang",
-      "country": "Vietnam",
+      "cityName": "Son Tra",
+      "country": "Da Nang",
       "emoji": ">",
       "date": "2027-07-15T08:22:53.976Z",
       "notes": "",
@@ -22,11 +22,11 @@
         "lat": 16.0472372,
         "lng": 108.1287658
       },
-      "id": 17806751
+      "id": 22222222
     },
     {
       "cityName": "Dong Ha",
-      "country": "Vietnam",
+      "country": "Quang Tri",
       "emoji": ">",
       "date": "2027-02-12T09:24:11.863Z",
       "notes": "Amazing 😃",
@@ -34,7 +34,55 @@
         "lat": 16.809798,
         "lng": 107.0999242
       },
-      "id": 98443197
+      "id": 33333333
+    },
+    {
+      "cityName": "Dong Hoi",
+      "country": "Quang Binh",
+      "emoji": ">",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 17.4544497,
+        "lng": 106.5235411
+      },
+      "id": 44444444
+    },
+    {
+      "cityName": "Tam Ky",
+      "country": "Quang Nam",
+      "emoji": ">",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 15.5764131,
+        "lng": 108.4207694
+      },
+      "id": 55555555
+    },
+    {
+      "cityName": "Le Thuy",
+      "country": "Quang Binh",
+      "emoji": ">",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 17.4544497,
+        "lng": 106.5235411
+      },
+      "id": 66666666
+    },
+    {
+      "cityName": "Hoi An",
+      "country": "Quang Nam",
+      "emoji": ">",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 15.5764131,
+        "lng": 108.4207694
+      },
+      "id": 77777777
     }
   ]
 }

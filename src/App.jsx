@@ -6,6 +6,7 @@ import PageNotFound from './pages/PageNotFound';
 import AppLayout from './pages/AppLayout';
 import CityList from './components/CityList';
 import { useEffect, useState } from 'react';
+import CountryList from './components/CountryList';
 
 const API_URL = `http://localhost:8000`;
 
@@ -52,7 +53,10 @@ function App() {
             path="cities"
             element={<CityList cities={cities} isLoading={isLoading} />}
           />
-          <Route path="countries" element={<h1>LIST OF COUNTRIES</h1>} />
+          <Route
+            path="countries"
+            element={<CountryList cities={cities} isLoading={isLoading} />}
+          />
           <Route path="form" element={<h1>FORM</h1>} />
         </Route>
 
