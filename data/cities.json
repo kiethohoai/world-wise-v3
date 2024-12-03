@@ -59,6 +59,42 @@
         "lng": 108.4207694
       },
       "id": "55555555"
+    },
+    {
+      "id": "e1df",
+      "cityName": "Phu Vang",
+      "country": "Viet Nam",
+      "emoji": "✈",
+      "date": "2024-12-03T03:32:04.950Z",
+      "notes": "",
+      "position": {
+        "lat": "16.42686474669693",
+        "lng": "107.71820068359376"
+      }
+    },
+    {
+      "id": "7291",
+      "cityName": "Phu Loc",
+      "country": "Viet Nam",
+      "emoji": "✈",
+      "date": "2024-12-03T03:32:12.403Z",
+      "notes": "Lang Co",
+      "position": {
+        "lat": "16.231816480991775",
+        "lng": "108.072509765625"
+      }
+    },
+    {
+      "id": "8b67",
+      "cityName": "Da Nang",
+      "country": "Viet Nam",
+      "emoji": "✈",
+      "date": "2024-12-03T03:36:29.919Z",
+      "notes": "",
+      "position": {
+        "lat": "16.05109253962652",
+        "lng": "108.21945190429688"
+      }
     }
   ]
 }
