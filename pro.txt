@@ -32,3 +32,4 @@
 018 Advanced State Management System Context + useReducer
 019 Adding Fake Authentication Setting Up Context
 020 Adding Fake Authentication Implementing Login
+021 Adding Fake Authentication Protecting a Route
