@@ -28,3 +28,4 @@
 015 Fetching City Data in the Form
 015 Fetching City Data in the Form Fix Some Bugs
 016 Creating a New City
+017 Deleting a City
