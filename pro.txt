@@ -27,3 +27,4 @@
 014 Setting Map Position With Geolocation
 015 Fetching City Data in the Form
 015 Fetching City Data in the Form Fix Some Bugs
+016 Creating a New City

@@ -24,6 +24,29 @@ function CitiesProvider({ children }) {
     }
   }
 
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+      const res = await fetch(`${API_URL}/cities`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newCity),
+      });
+
+      if (!res.ok) throw new Error(`Error while fetching city data.`);
+      const data = await res.json();
+      setCities((cities) => [...cities, data]);
+    } catch (error) {
+      alert(error.message);
+    } finally {
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
+    }
+  }
+
   useEffect(function () {
     let id;
     async function fetchCities() {
@@ -49,7 +72,9 @@ function CitiesProvider({ children }) {
   }, []);
 
   return (
-    <CitiesContext.Provider value={{ cities, isLoading, currentCity, getCity }}>
+    <CitiesContext.Provider
+      value={{ cities, isLoading, currentCity, getCity, createCity }}
+    >
       {children}
     </CitiesContext.Provider>
   );
