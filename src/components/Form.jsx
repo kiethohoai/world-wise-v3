@@ -38,9 +38,7 @@ function Form() {
         const data = await res.json();
 
         if (!data.countryCode)
-          throw new Error(
-            `That's doesn't seem to be a city. Click somewhere else.`,
-          );
+          throw new Error(`That's doesn't seem to be a city. Click somewhere else.`);
         setCityName(data.city || data.locality || '');
         setCountry(data.countryName);
       } catch (error) {
@@ -71,20 +69,12 @@ function Form() {
 
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>
-        <input
-          id="date"
-          onChange={(e) => setDate(e.target.value)}
-          value={date}
-        />
+        <input id="date" onChange={(e) => setDate(e.target.value)} value={date} />
       </div>
 
       <div className={styles.row}>
         <label htmlFor="notes">Notes about your trip to {cityName}</label>
-        <textarea
-          id="notes"
-          onChange={(e) => setNotes(e.target.value)}
-          value={notes}
-        />
+        <textarea id="notes" onChange={(e) => setNotes(e.target.value)} value={notes} />
       </div>
 
       <div className={styles.buttons}>
