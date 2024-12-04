@@ -35,3 +35,4 @@
 021 Adding Fake Authentication Protecting a Route
 19 Performance Optimization and Advanced useEffect
 20 Fix getCity by using useCallback()
+21 Optimizing Bundle Size With Code Splitting
